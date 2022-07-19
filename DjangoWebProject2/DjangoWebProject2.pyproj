@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="HelloMyApp\admin.py" />
+    <Compile Include="HelloMyApp\apps.py" />
+    <Compile Include="HelloMyApp\migrations\__init__.py" />
+    <Compile Include="HelloMyApp\models.py" />
+    <Compile Include="HelloMyApp\tests.py" />
+    <Compile Include="HelloMyApp\views.py" />
+    <Compile Include="HelloMyApp\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject2\__init__.py" />
     <Compile Include="DjangoWebProject2\settings.py" />
@@ -37,10 +44,15 @@
     <Compile Include="DjangoWebProject2\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloMyApp\templates\HelloMyApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject2\" />
+    <Folder Include="HelloMyApp\" />
+    <Folder Include="HelloMyApp\migrations\" />
+    <Folder Include="HelloMyApp\templates\" />
+    <Folder Include="HelloMyApp\templates\HelloMyApp\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
