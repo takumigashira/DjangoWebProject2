@@ -44,6 +44,7 @@
     <Compile Include="DjangoWebProject2\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloMyApp\static\site.css" />
     <Content Include="HelloMyApp\templates\HelloMyApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -51,6 +52,7 @@
     <Folder Include="DjangoWebProject2\" />
     <Folder Include="HelloMyApp\" />
     <Folder Include="HelloMyApp\migrations\" />
+    <Folder Include="HelloMyApp\static\" />
     <Folder Include="HelloMyApp\templates\" />
     <Folder Include="HelloMyApp\templates\HelloMyApp\" />
   </ItemGroup>
