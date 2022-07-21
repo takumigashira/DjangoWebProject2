@@ -25,6 +25,7 @@ import HelloMyApp.views
 urlpatterns = [
     url(r'^$', HelloMyApp.views.index, name='index'),
     url(r'^home$', HelloMyApp.views.index, name='home'),
+    url(r'^about$', HelloMyApp.views.about, name='about'),
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
 ]
