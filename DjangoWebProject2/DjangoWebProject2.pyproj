@@ -47,6 +47,7 @@
     <Content Include="HelloMyApp\templates\HelloMyApp\about.html" />
     <Content Include="HelloMyApp\static\site.css" />
     <Content Include="HelloMyApp\templates\HelloMyApp\index.html" />
+    <Content Include="HelloMyApp\templates\HelloMyApp\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

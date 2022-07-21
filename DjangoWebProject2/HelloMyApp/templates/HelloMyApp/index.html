@@ -1,12 +1,5 @@
-<html>
-<head>
-    <title>{{ title }}</title>
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
-</head>
+{% extends "HelloMyApp/layout.html" %}
+{% block content %}
+<span class="message">{{ message }}</span>{{ content }}
+{% endblock %}
 
-<body>
-    <span class="message">{{ message }}</span>{{ content }}
-    <div><a href="about">about</a></div>
-</body>
-</html>
